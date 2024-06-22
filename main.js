@@ -29,7 +29,7 @@ class StyledTable extends HTMLElement {
         // Load styles
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = 'https://github.com/gpotenza80/Custom_Table/tree/main';
+        link.href = 'https://github.com/gpotenza80/Custom_Table/blob/main/styles.css';
         this.shadowRoot.innerHTML = '';
         this.shadowRoot.appendChild(link);
         this.shadowRoot.appendChild(table);
